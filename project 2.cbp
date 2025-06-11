@@ -33,6 +33,7 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="main.cpp" />
+		<Unit filename="project 2.cbp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
