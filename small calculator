@@ -1,0 +1,43 @@
+#include <stdio.h>
+int main(){
+
+    int x;
+    int y;
+    char z;
+
+    printf("enter the first number: ");
+    scanf(" %d", &x);
+
+    printf("enter the second number: ");
+    scanf(" %d", &y);
+
+    printf("chose the operator  + - * / : ");
+    scanf(" %c", &z);
+
+
+    switch(z){
+    case '+':
+        printf("the result is: %d\n ", x + y);
+        break;
+    case '-':
+        printf("the result is: %d\n", x - y);
+        break;
+    case '*':
+        printf("the result is: %d\n", x * y);
+        break;
+    case '/':
+        if(y == 0 ){
+            printf("bad number");
+        }else{
+        printf("the result is: %d\n", x / y);
+        }
+        break;
+
+        default:
+            printf("bad input");
+            break;
+
+    }
+  return 0;
+
+}
