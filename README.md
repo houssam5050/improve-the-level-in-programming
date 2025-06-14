@@ -1,20 +1,16 @@
-#include <stdio.h>
-int main(){
+# Beginner C Programs 👨‍💻
 
-  int x;
-  int y;
+This repository contains simple C programs and code snippets written during my learning process.
 
-  printf("enter the first number: \n");
-  scanf("%d", &x);
+ 💡 Purpose
+To practice and improve my programming skills in C by building small and focused programs.
 
-  printf("enter the second number: \n");
-  scanf("%d", &y);
+ 📂 Contents
+- Simple Calculator
+- Chat Simulation
+- Odd or Even Checker
+- Number Guessing Game
+- ...
 
-  printf(" the result is: %d", x + y);
-
-
-
-
-  return 0;
-
-}
+ 🚧 Note
+These are not full projects. They are for educational purposes only.
