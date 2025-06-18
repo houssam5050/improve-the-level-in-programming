@@ -17,6 +17,17 @@ int main() {
             printf("\n");
     }
 
+    for(int x = rows - 1; x >= 1; x--){
+            for(int y = rows; y > x; y--){
+                    printf("  ");
+            }
+            for(int z = 1 ; z <= (2 * x - 1); z++){
+
+                printf("* ");
+            }
+            printf("\n");
+    }
+
 
     return 0;
 }
