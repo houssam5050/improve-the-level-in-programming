@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-
-    int x = 5, y = 15, t;
+    int x,y,t; 
+     printf("enter first number "); 
+     scanf("%d",x); 
+       printf("enter second number "); 
+     scanf("%d",y); 
 
 
     t = x;
