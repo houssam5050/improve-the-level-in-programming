@@ -1,0 +1,25 @@
+#include <unistd.h>
+void ft(char *s1, char *s2){
+int i = 0;
+
+while(s1[i] != '\0' && s2[i] != '\0'){
+if(s1[i] != s2[i])
+break;
+i++;
+}
+if(s1[i] > s2[i]){
+
+write(1, "psitive \n", 9);
+}else if(s1[i] < s2[i]){
+write(1, "negative \n", 10);
+}else if(s1[i] == s2[i]){
+write(1, "zero \n", 6);
+}
+}
+
+int main(){
+ft("abc", "abc");
+ft("abd", "abc");
+ft("abc", "abd");
+return 0;
+}
